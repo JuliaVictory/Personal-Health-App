@@ -74,15 +74,18 @@ def final_result(p_points,p_canton):
         print("")
         print("Excellent! Your're well on your way to the next Olympic Games!")
     elif p_points>16:
+        print("")
         print("            ____O         __O                    ")
         print("            _`___\-'      / /\_,               | ")
         print("           (')\/(`)     ___/\                  | ")
         print("                            /_                 | ")
         print("         --------------------------------------  ")
         print("")
+        print("")
         print("You're doing a great job. Keep going and stay healthy!")
       
     else:
+        print("")
         print("+---------------------------------------------------------+")
         print("|                                                         |")
         print("|  o   \ o /  _ o         __+    \ /     +__        o _   |")
@@ -91,7 +94,13 @@ def final_result(p_points,p_canton):
         print("|                                                         |")
         print("+---------------------------------------------------------+")
         print("")
-        print("A doctor might be a good choice. Here are some recommendations for you: ")
+        print("")
+        print("Your results show potential for improvement.")
+        print("")
+        print("We recommend that you have a medical checkup and develop a suitable training plan with a doctor.")
+        print("")
+        print("Here are some recommendations for you: ")
+        print("")
         #oh oh, not good. Therefore show doctors from this canton
         print(read_data.get_doctors(p_canton))
     return
