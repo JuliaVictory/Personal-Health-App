@@ -1,0 +1,107 @@
+Doctor,Canton,Street,City,Phone Number
+Baumberger Hans Rudolf,AG,Bahnhofstrasse 92, 5000 Aarau,Tel: 062 822 46 28
+Rohr Hans,AG,Hauptstrasse 7c, 5502 Hunzenschwil,Tel: 062 889 01 01
+Schibli-Kaspar Eva,AG,Schönbühlstrasse 5a, 5442 Fislisbach,Tel: 056 493 36 46
+Holy Jan,AG,Maiacherstrasse 5, 8916 Jonen,Tel: 056 634 11 05
+Ganz Walter,AG,Hauptstrasse 161, 5274 Mettau,Tel: 062 875 22 22
+Balmer-Jacobson Kurt,AI,Unterer Gansbach 2, 9050 Appenzell,Tel: 071 787 88 44
+Hörler Roman,AI,Sandgrube 27, 9050 Appenzell,Tel: 071 780 08 50
+King Andreas,AI,Dorfstrasse 31, 9108 Gonten,Tel: 071 794 13 88
+Vinzent Karl Theobald,AI,Rütistrasse 6, 9050 Appenzell,Tel: 071 780 00 78 
+Bernardo Arthur,AR,Gäbrisstrasse , 9056 Gais,Tel: 071 791 66 33
+Kürsteiner Thomas,AR,Schwantlern 3, 9056 Gais,Tel: 071 793 33 11
+Jünemann Frank,AR,Gossauerstrasse 24, 9100 Herisau,Tel: 071 352 44 33
+Schläpfer Hansueli,AR, Kasernenstrasse 30, 9100 Herisau,Tel: 071 352 44 77
+Bonsall Irène,BS,Urs Graf-Strasse 12, 4052 Basel,Tel: 061 312 34 12
+Gelsomino Marco,BS,Kleinhüningerstrasse 177, 4057 Basel,Tel: 061 631 30 13
+Gonon Michael,BS,Grenzacherstrasse 62, 4058 Basel,Tel: 061 690 91 11 
+von Planta Martin,BS,St. Johanns-Vorstadt 44, 4056 Basel,Tel: 061 322 61 11
+Vorndamm Jens,BS,Untere Rebgasse 18, 4058 Basel,Tel: 061 681 86 86
+Schön Heinz,BL,Hauptstrasse 97, 4147 Aesch,Tel: 061 751 63 78  
+Aerni Rolf,BL,Gartenstrasse 4, 4147 Aesch,Tel: 061 751 44 11
+Giger Jürg,BL,Hauptstrasse 107, 4147 Aesch,Tel: 061 751 15 49
+Meier Charles,BL,Kasernenstrasse 68, 4410 Liestal,Tel: 061 922 20 80
+Ringgenberg Thomas,BE,Mühledorfstrasse 1, 3018 Bern,Tel: 031 552 02 05    
+Steiner Fridolin,BE,Gerechtigkeitsgasse 12, 3011 Bern,Tel: 031 311 68 88    
+Widmer Daniel,BE,Elisabethenstrasse 51, 3014 Bern,Tel: 031 331 42 41 
+Ruchonnet Michel,BE,Bellevue 2, 2608 Courtelary,Tel: 032 944 10 10
+Häcki Stephan,FR,Freiburgstrasse 2, 3178 Bösingen,Tel: 031 747 88 80   
+Sidler Marc,FR,Bourg de l'Auge 11, 1636 Broc,Tel: 026 921 39 69  
+Allemann Yves,FR,Chemin de Pré-Vert 42, 1630 Bulle,Tel: 026 913 14 57 
+Roffler Jacob,GE,rue de l'Ancien-Lavoir  10, 1247 Anières,Tel: 022 751 23 13  
+Klein Marianne,GE,Route d'Annecy 277, 1257 La Croix-de-Rozon,Tel: 022 880 10 01  
+Ehle Anne,GE,Chemin des Tuilots 10, 1293 Bellevue,Tel: 022 774 25 74 
+Micheli Philippe,GE,Rue Dr-Alfred-Vincent 17, 1201 Genève,Tel: 022 716 06 60   
+Abbas-Terki Nadji,GE,Route de Florissant 1, 1206 Genève,Tel: 022 789 20 00 
+Gerber Liana,GL,Bürgstrasse 50, 8750 Glarus,Tel: 055 640 30 44   
+Schweizer Wolfgang,GL,Stampfgasse 10, 8750 Glarus,Tel: 055 646 50 70 
+Brunner Jakob,GL,Burgstrasse 99, 8750 Glarus,Tel: 055 646 33 33
+Meyer Verena,GR,Poststrasse , 7050 Arosa,Tel: 081 377 27 28 
+Walkmeister Martin,GR,Poststrasse , 7050 Arosa,Tel: 081 377 27 28
+Caduff Cornelia,GR,Bahnhofstrasse 14, 7000 Chur,Tel: 081 253 10 35  
+Danz (-Tönz) Linard,GR,Alexanderstrasse 8, 7000 Chur,Tel: 081 252 21 20   
+Fischer Urs A.,GR,Gürtelstrasse 46, 7000 Chur,Tel: 081 287 70 00
+Rion Armand,JU,Rue de la Pran 17, 2855 Glovelier,Tel: 032 426 58 28 
+Bosson Dominique,JU,Rue du Doubs  1, 2340 Le Noirmont,Tel: 032 953 15 15 
+Noveanu Markus,JU,Chemin Roc-Montès 20, 2340 Le Noirmont,Tel: 032 957 56 20   
+Tettamanti Serge,JU,Grand-Rue 12, 2345 Les Breuleux,Tel: 032 954 17 54 
+Nikolaidis David,LU,Bahnhofstrasse 19a, 6203 Sempach Station,Tel: 041 467 24 34  
+Jenny Andreas,LU,Guido A. Zäch-Strasse 1, 6207 Nottwil,Tel: 041 939 52 47   
+Aregger Patrick,LU,Länggasse 4, 6208 Oberkirch,Tel: 041 937 16 16
+Korsakas Saulius,LU,St. Anna-Strasse 32, 6000 Luzern,Tel: 041 208 48 55
+Humbert-Droz Marc-Joël,NE,Chemin des Chênes 11, 2087 Cornaux,Tel: 032 757 22 42
+Cotting-Barfuss Martine,NE,Chemin des Pièces-Chaperon 8, 2016 Cortaillod,Tel: 032 842 56 68
+Haeny Philippe,NE,Chemin de la Grassilière 3, 2016 Cortaillod,Tel: 032 841 46 47
+De Montmollin Jean-Frédéric,NE,Case postale 65, 2088 Cressier,Tel: 032 757 24 24
+Walker Marcelo,NW,Seestrasse 49, 6052 Hergiswil,Tel: 041 630 26 67 
+Schüpfer Christian,NW,Ennetmooserstrasse 19, 6370 Stans,Tel: 041 612 20 40 
+Durrer Grendelmeier Martina,NW,Engelbergstrasse  33, 6370 Stans,Tel: 041 500 20 40
+Müller Thomas,NW,Rathausplatz 7, 6370 Stans,Tel: 041 610 41 84 
+Kempf Rolf,OW,Hobielstrasse 24, 6064 Kerns,Tel: 041 660 33 55 
+Durrer Melchior,OW,Brünigstrasse 69, 6078 Lungern,Tel: 041 678 18 69 
+Mir Tolouei M. Reza,OW,Brünigstrasse  69, 6078 Lungern,Tel: 041 678 18 69
+Michel-Dillier Tanja,OW,Pilatusstrasse 6, 6072 Sachseln,Tel: 041 660 52 33
+Vernazza Pietro,SG,Rorschacher Strasse 95, 9007 St. Gallen,Tel: 071 494 26 32
+Neurauter Evelyne,SG,Kornhausstrasse 3, 9000 St. Gallen,Tel: 071 228 40 40 
+Bouronikou Vasiliki,SG,Lerchentalstrasse 21, 9016 St. Gallen,Tel: 071 228 70 70
+Frei Benedikt,SG,Ballengasse 9, 9463 Oberriet SG,Tel: 071 763 63 53 
+Grabherr Daniel,SG,Herisauerstrasse 77, 9200 Gossau SG,Tel: 071 383 23 46
+Thalmann Martin,SH,Schützehüsliweg 5, 8222 Beringen,Tel: 052 685 19 25 
+Wagner Jürgen,SH,Gärtlistrasse 8, 8239 Dörflingen,Tel: 052 533 77 70
+Schmitt Christoph,SH,Wunderklingerstrasse 31, 8215 Hallau,Tel: 052 681 17 67
+Craviolini Roni,SH,Bahnhofstrasse 73, 8215 Hallau,Tel: 052 681 31 05 
+Helbling Thomas,SO,Gässli 18, 4614 Hägendorf,Tel: 062 216 44 30
+Küenzi (-Kissling) Erich,SO,Bachstrasse 18, 4614 Hägendorf,Tel: 062 216 00 44 
+Maurer Beat,SO,Lohweg 15, 4146 Hochwald,Tel: 079 448 13 33
+Burkolter Daniel,SO,Mittelgäustrasse 57, 4616 Kappel SO,Tel: 062 216 14 14
+Huber Martin,SZ,Arzthausstrasse 1, 6418 Rothenthurm,Tel: 041 838 12 21 
+Ringli Michael,SZ,Arzthausstrasse 1, 6418 Rothenthurm,Tel: 041 838 12 21 
+Brunner Hugo,SZ,Dorfstrasse 14, 6417 Sattel,Tel: 041 835 15 50
+Anan Ram,SZ,Wägitalerstrasse 26, 8854 Siebnen,Tel: 055 440 58 86
+Kalapos Imre,TG,Oberdorfstrasse 2, 9555 Tobel,Tel: 071 917 16 45 
+Kläusler Martin,TG,Zentrumsplatz  2, 8592 Uttwil,Tel: 071 461 25 25  
+Noorin Omar,TG,Zentrumsplatz  2, 8592 Uttwil,Tel: 071 461 25 25 
+Diel Michael,TG,Dorfstrasse 21, 9545 Wängi,Tel: 052 378 12 03
+Schenker Alfons,TI,Centro Commerciale, 6593 Cadenazzo,Tel: 091 858 25 26 
+Braun (-Karli) Christina,TI,Via Trevano 8, 6952 Canobbio,Tel: 091 941 05 11 
+Leimgruber Hans Rudolf,TI,Via Campagna  11, 6952 Canobbio,Tel: 091 941 12 12 
+Klainguti Aldo,TI,Via Meneghelli 1, 6950 Tesserete,Tel: 091 943 41 73
+Jung (-Kämpf) Thierry,UR,Unterer Butzenweg 4, 6472 Erstfeld,Tel: 041 880 03 60  
+Gamma Philipp,UR,Kirchstrasse 2, 6454 Flüelen,Tel: 041 870 96 36  
+Britschgi (-Stadler) Urs,UR,Adlergartenstrasse 21, 6467 Schattdorf,Tel: 041 870 02 45
+Kostova Yanka,VD,Rue des Chèzeaux 14, 1424 Champagne,Tel: 024 436 30 30 
+Bourgeois Robert,VD,Route Bellevue 3, 1803 Chardonne,Tel: 021 921 23 51 
+Bornet Alfred,VD,Route de la Ray 42, 1660 Château-d'Oex,Tel: 026 924 33 33 
+Dufek Antonin,VS,Untere Maressenstrasse 2, 3954 Leukerbad,Tel: 027 470 17 21 
+Franzetti André,VS,En Arche 34, 1912 Leytron,Tel: 027 306 24 88
+Besse Francine,VS,Rue des Morasses 4, 1920 Martigny,Tel: 027 723 23 80
+Métrailler Jean-Claude,VS,Rue Rainer Maria Rilke 4, 3960 Sierre,Tel: 027 456 47 17
+Klein Frank,ZG,Hauptstrasse 12, 6313 Menzingen,Tel: 041 757 10 80
+Bürgler (-Brandenberg) Paul,ZG,Obere Rainstrasse 28, 6345 Neuheim,Tel: 041 755 26 56
+Hefti-Alber Verena,ZG,Im Ländli 16, 6315 Oberägeri,Tel: 041 754 92 55
+Borek Georges,ZG,Grafenaustrasse 3, 6300 Zug,Tel: 041 712 08 80 
+Gerritsen Peter F.,ZG,Gubelstrasse 17, 6300 Zug,Tel: 041 711 88 55
+Galovic Dunja,ZH,Schulstrasse 26, 8330 Pfäffikon,Tel: 044 950 39 40
+Jänne Ann-Maj,ZH,Bahnhofstrasse  14, 8330 Pfäffikon,Tel: 044 950 56 57 
+Bubanj Somborski Tatjana,ZH,Zähringerstrasse  32, 8001 Zürich,Tel: 044 261 00 97
+Hochstrasser Jürg,ZH,Etzelstrasse 10, 8038 Zürich,Tel: 044 481 81 81
