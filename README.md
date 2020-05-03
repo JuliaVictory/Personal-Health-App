@@ -2,7 +2,7 @@
 
 With this program, a user can check her health score in two different surveys. 
 Depending on the survey chosen, the inputs are then categorized and the user gets in answer-based result.
-Besides collecting information for further analysis, the personal feedback also creates valuable insight for the user and based on her final score she will receive a list of doctors in the canton she lives in.   
+Besides collecting information for further analysis, the personal feedback also creates valuable insight for the user and based on her final score, she will receive a list of doctors in the canton she lives in.   
 The diagrams shown at the end gives the user a quick insight into the survey and provides her with an overview about the most relevant statistics.
 
 Preperation:
