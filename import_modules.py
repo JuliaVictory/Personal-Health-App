@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on May 03 2020
-
-@authors: Julia Gruber, Max Schlicher, Caroline Steiner, Jelena Zimmermann
-"""
-
 import os
 import importlib
 
