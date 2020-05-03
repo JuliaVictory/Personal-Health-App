@@ -69,8 +69,8 @@ def final_result(p_points,p_canton):
         print("            \::.    /                 ")
         print("             '::. .'                  ")
         print("               ) (                    ")
-        print("             _.' '._                  ")
-        print("             `"""""""`                ")
+        print("             _.'_'._                  ")
+        print("")
         print("")
         print("Excellent! Your're well on your way to the next Olympic Games!")
     elif p_points>16:
