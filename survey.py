@@ -29,7 +29,7 @@ def initialize_survey():
         if inp_survey == 'A' or inp_survey == 'B':
             break;
         else:
-            print('This survey does not exist. Please enter A or B.')
+            print("This survey does not exist. Please enter A or B.")
     return v_which_canton, v_age, inp_survey
 
 def take_survey(p_survey):
@@ -38,7 +38,9 @@ def take_survey(p_survey):
     #read the former chosen survey
     with open('Survey_' + p_survey + '.csv') as f:
         csv_reader = csv.reader(f)
-        print('Please enter one of the following: 0 = never, 1 = rarely, 2 = sometimes, 3 = often, 4 = always')
+        print("")
+        print("Please enter one of the following: 0 = never, 1 = rarely, 2 = sometimes, 3 = often, 4 = always")
+        print("")
         #skip the header row
         next(f)
         for line in csv_reader:
