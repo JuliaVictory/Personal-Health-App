@@ -57,7 +57,9 @@ def take_survey(p_survey):
 
 def final_result(p_points,p_canton):
     print("")
+    print("")
     print("Your overall points are: " + str(p_points))
+    print("")
     print("")
     if p_points>30:
         print("")
