@@ -1,4 +1,5 @@
 # HSG_Health-Check
+##LÖSCHEN: Jelena, Caroline
 
 With this program, a user can check her health score in two different surveys. 
 Depending on the survey chosen, the inputs are then categorized and the user gets in answer-based result.
