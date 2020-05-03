@@ -17,7 +17,7 @@ def initialize_survey():
     
     #Which survey do you want to take?
     while True:
-        inp_survey = input("Which survey do you want to take? (A = Consumption B = Activity Level and Recovery):  ")
+        inp_survey = input("Which survey do you want to take? (A = Consumption B = Activity Level and Recovery):  ").upper()
         if inp_survey == 'A' or inp_survey == 'B':
             break;
         else:
@@ -34,12 +34,23 @@ def take_survey(p_survey):
         #skip the header row
         next(f)
         for line in csv_reader:
-            v_count += 1            
-            v_points += int(input('Question No. ' + str(v_count) + ': ' + line[0] + ' YOU: '))
+            v_count += 1
+            while True:
+                try:
+                    v_chosen_points = int(input('Question No. ' + str(v_count) + ': ' + line[0] + ' YOU: '))
+                    if int(v_chosen_points) in range(0, 5):
+                        v_points += v_chosen_points
+                        break;
+                    else:
+                        print('Please try again. Enter a number between 0-4')
+                except:
+                    print("You did not enter a number. Please enter 0-4")   
     return v_points
 
 def final_result(p_points,p_canton):
-    print(p_points)
+    print("")
+    print("Your overall points are: " + str(p_points))
+    print("")
     if p_points>16:
         print("            ____O         __O                    ")
         print("            _`___\-'      / /\_,               | ")

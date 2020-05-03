@@ -31,7 +31,7 @@ def which_cantons():
             inp_canton = input("Which canton are you from? Please enter a number from the list: ")
             #we choose "len(df)-1" to dynamically increase the number
             #in case there will be more cantons in future
-            if int(inp_canton) in range(0, len(df)-1):
+            if int(inp_canton) in range(0, len(df)):
                 #short name canton will be returned
                 v_abk_canton = df.loc[int(inp_canton),"Abk"]
                 break;
@@ -47,7 +47,7 @@ def get_doctors(p_canton):
     import pandas as pd
     return_value = ''
     survey_results = pd.read_csv('doctors_list.csv')
-    return_value = survey_results.loc[survey_results['canton'] == p_canton].to_string(index=False)
-    if survey_results.loc[survey_results['canton'] == p_canton].empty == True:
+    return_value = survey_results.loc[survey_results['Canton'] == p_canton].to_string(index=False)
+    if survey_results.loc[survey_results['Canton'] == p_canton].empty == True:
         return_value = 'There does not seem to be any doctor in your canton!'
     return return_value
