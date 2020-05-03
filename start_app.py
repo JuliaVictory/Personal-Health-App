@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Apr 20 2020
-
-@authors: Julia Gruber, Max Schlicher, Caroline Steiner, Jelena Zimmermann
-"""
 #for installing missing modules
 import import_modules
 
