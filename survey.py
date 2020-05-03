@@ -11,10 +11,18 @@ import csv
 import read_data
 
 def initialize_survey():
-    
+    v_age = 0
     v_which_canton = read_data.which_cantons()
-    v_age = input("Please enter your age: ")
-    
+    while True:
+        try:
+            v_age = input("Please enter your age: ")
+            if int(v_age) > 0:
+                break;
+            else:
+                print('This does not seem to be a reasonable age')
+        except:
+            print("Please enter a valid age!")    
+            
     #Which survey do you want to take?
     while True:
         inp_survey = input("Which survey do you want to take? (A = Consumption B = Activity Level and Recovery):  ").upper()

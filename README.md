@@ -6,7 +6,8 @@ Besides collecting information for further analysis, the personal feedback also 
 The diagrams shown at the end gives the user a quick insight into the survey and provides her with an overview about the most relevant statistics.
 
 Preperation:
- - pip install squarify --> # squarify is necessary for creating a treemap diagram
+ - squarify is being installed automatically (if it does not exist)
+   --> # squarify is necessary for creating a treemap diagram
 
 
 Roadmap:
