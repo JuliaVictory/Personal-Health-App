@@ -73,7 +73,7 @@ def final_result(p_points,p_canton):
         print("")
         print("")
         print("Excellent! Your're well on your way to the next Olympic Games!")
-    elif p_points>16:
+    elif p_points>24:
         print("")
         print("            ____O         __O                    ")
         print("            _`___\-'      / /\_,               | ")
@@ -83,7 +83,21 @@ def final_result(p_points,p_canton):
         print("")
         print("")
         print("You're doing a great job. Keep going and stay healthy!")
-      
+    elif p_points>16:
+        print("")
+        print("+---------------------------------------------------------+")
+        print("|                                                         |")
+        print("|  o   \ o /  _ o         __+    \ /     +__        o _   |")
+        print("| /+\    +     /\   ___\o   \o    +    o/    o/__   /\    |")
+        print("| / \   / \   + \  /)  +    ( \  /o\  / )    +  (\  / +   |")
+        print("|                                                         |")
+        print("+---------------------------------------------------------+")
+        print("")
+        print("")
+        print("You laid the fundations. Now you can really get started!")
+        print("")
+        print("Keep pushing and further improve your fitness with regular exercises!")
+  
     else:
         print("")
         print("+---------------------------------------------------------+")
