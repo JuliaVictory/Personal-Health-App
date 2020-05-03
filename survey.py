@@ -59,14 +59,29 @@ def final_result(p_points,p_canton):
     print("")
     print("Your overall points are: " + str(p_points))
     print("")
-    if p_points>16:
+    if p_points>30:
+        print("")
+        print("           ___________                ")
+        print("          '._==_==_=_.'               ")
+        print("          .-\:      /-.               ")
+        print("         | (|:.     |) |              ")
+        print("          '-|:.     |-'               ")
+        print("            \::.    /                 ")
+        print("             '::. .'                  ")
+        print("               ) (                    ")
+        print("             _.' '._                  ")
+        print("             `"""""""`                ")
+        print("")
+        print("Excellent! Your're well on your way to the next Olympic Games!")
+    elif p_points>16:
         print("            ____O         __O                    ")
         print("            _`___\-'      / /\_,               | ")
         print("           (')\/(`)     ___/\                  | ")
         print("                            /_                 | ")
         print("         --------------------------------------  ")
         print("")
-        print("You're doing a great job. Keep going!")
+        print("You're doing a great job. Keep going and stay healthy!")
+      
     else:
         print("+---------------------------------------------------------+")
         print("|                                                         |")
