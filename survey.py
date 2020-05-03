@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-
-"""
-Created on Apr 20 2020
-
-@authors: Julia Gruber, Max Schlicher, Caroline Steiner, Jelena Zimmermann
-"""
-
 # importing survey questions to answer
 import csv
 import read_data
