@@ -17,6 +17,7 @@ Roadmap:
  4. results.py: stores the final score to a csv + creates diagrams
 
 Technical functionality:
+ - Automatic installation of necessary "squarify" package
  - Make use of different python packages (pandas, matplotlib)
  - Read data from an external website (cantons) - read html table data and format via panda dataframes
  - Data selection via panda
@@ -24,5 +25,5 @@ Technical functionality:
  - Diagrams based on results file via panda
  - Read data from csv file and selection criteria (based on cantons)
  - Exception handling
- - Use ascii
+ - Use ascii visualization
  - Separated code into more files for independent working and developing of features (functionality based)
