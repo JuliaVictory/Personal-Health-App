@@ -11,7 +11,7 @@ def initialize_survey():
             if int(v_age) > 0:
                 break;
             else:
-                print('This does not seem to be a reasonable age')
+                print("This does not seem to be a reasonable age")
         except:
             print("Please enter a valid age!")    
             
@@ -40,7 +40,7 @@ def take_survey(p_survey):
             v_count += 1
             while True:
                 try:
-                    v_chosen_points = int(input('Question No. ' + str(v_count) + ': ' + line[0] + ' YOU: '))
+                    v_chosen_points = int(input("Question No. " + str(v_count) + ": " + line[0] + " YOU: "))
                     if int(v_chosen_points) in range(0, 5):
                         v_points += v_chosen_points
                         break;
@@ -91,7 +91,7 @@ def final_result(p_points,p_canton):
         print("+---------------------------------------------------------+")
         print("")
         print("")
-        print("You laid the fundations. Now you can really get started!")
+        print("You laid the foundations. Now you can really get started!")
         print("")
         print("Keep pushing and further improve your fitness with regular exercises!")
     else:
