@@ -5,14 +5,10 @@ Depending on the survey chosen, the inputs are then categorized and the user get
 Besides collecting information for further analysis, the personal feedback also creates valuable insight for the user and based on her final score, she will receive a list of doctors in the canton she lives in.   
 The diagrams shown at the end gives the user a quick insight into the survey and provides her with an overview about the most relevant statistics.
 
-Preparation:
- - s
-
-
 Roadmap:
- 1. #start_app.py:# general code that imports the functionalities written in other files
- 2. quarify is being installed automatically (if it does not exist)
-   --> # squarify is necessary for creating a treemap diagram
+ 1. __start_app.py:__ general code that imports the functionalities written in other files
+ 2. import_modules.py: squarify is being installed automatically (if it does not exist)
+    (squarify is necessary for creating a treemap diagram)
  3. read_data.py: reads the data from external website + internal csv file
  4. survey.py: performs the survey + gives the final score
  5. results.py: stores the final score to a csv + creates diagrams
