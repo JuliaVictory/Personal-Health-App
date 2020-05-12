@@ -1,4 +1,4 @@
-# HSG_Health-Check
+# Health-Check-App
 
 With this program, a user can check her health score in two different surveys. 
 Depending on the survey chosen, the inputs are then categorized and the user gets an answer-based result.
