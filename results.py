@@ -24,28 +24,28 @@ def create_diagrams():
     print("Additionally, you'll find some diagrams about the survey you've just participated in.")
     print("")
     
-# part 1 - Create histogram 
+# (1) Create a histogram of the age of all the users that have taken the survey so far
     plt.hist(
     
-        #using Age
+        # using age
         survey_results['Age'],     
-        #plotting it by age ranges
+        # plotting it by age ranges
         bins=(0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100),     
-        #with width
+        # with width
         rwidth=0.9,     
-        #with color
+        # with color
         color='blue')
 
-    #Set labels
+    # Set labels
     plt.ylabel('Number of People')
     plt.xlabel('Age')
     plt.title('Age Distribution')
 
-    #View the plot
+    # View the plot
     plt.show()
         
 
-# part 2 - Creating a treemap to show distribution 
+# (2) Create a treemap to show distribution based on the cantons the users live in
     # Showing distribution of cantons
     # sum the instances of cantons
     survey_results_grouped = survey_results.groupby("Canton", as_index=False)["Points"].sum()
@@ -54,16 +54,16 @@ def create_diagrams():
     plt.axis('off')
     # Set labels
     plt.title("Cantons points gained")
-    #View the plot
+    # View the plot
     plt.show()
 
-# part 3 - piechart 
+# (3) Create a piechart 
     #grouped by surveys, build the sum
     results_by_survey = survey_results.groupby("Survey", as_index=False)["Points"].sum()
     # sum the instances of A (position 0) and B (position 1)
     A_results = results_by_survey.loc[0,"Points"]
     B_results = results_by_survey.loc[1,"Points"]
-    # put them into a list called proportions
+    #put them into a list called proportions
     proportions = [A_results, B_results]    
 
     plt.pie(
