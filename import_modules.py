@@ -1,6 +1,6 @@
-#used for calling operating system calls
+#calling operating system calls
 import os
-#used for importing modules
+#importing modules
 import importlib
 
 def auto_install():
