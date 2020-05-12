@@ -6,15 +6,16 @@ Besides collecting information for further analysis, the personal feedback also 
 The diagrams shown at the end gives the user a quick insight into the survey and provides her with an overview about the most relevant statistics.
 
 Preparation:
- - squarify is being installed automatically (if it does not exist)
-   --> # squarify is necessary for creating a treemap diagram
+ - s
 
 
 Roadmap:
- 1. start_app.py: general code that imports the functionalities written in other files
- 2. read_data.py: reads the data from external website + internal csv file
- 3. survey.py: performs the survey + gives the final score
- 4. results.py: stores the final score to a csv + creates diagrams
+ 1. #start_app.py:# general code that imports the functionalities written in other files
+ 2. quarify is being installed automatically (if it does not exist)
+   --> # squarify is necessary for creating a treemap diagram
+ 3. read_data.py: reads the data from external website + internal csv file
+ 4. survey.py: performs the survey + gives the final score
+ 5. results.py: stores the final score to a csv + creates diagrams
 
 Technical functionality:
  - Automatic installation of necessary "squarify" package
