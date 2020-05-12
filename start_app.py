@@ -12,13 +12,13 @@ global inp_survey
 import_modules.auto_install()
 
 
-# (1) Welcome to Health Check App
+# (1) Welcome to Personal Health App
 #   http://asciiflow.com/ has been used to create the ascii-pics
 
 print("")
 print("")
 print("")
-print("          Welcome to the Health Check App")
+print("          Welcome to the Personal Health App")
 print("            Get healthy, STAY HEALTHY")
 print("")
 print("                     ,++./,+.")
