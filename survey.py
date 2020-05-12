@@ -1,4 +1,4 @@
-# importing survey questions to answer
+#importing survey questions to answer
 import csv
 import read_data
 
@@ -15,7 +15,8 @@ def initialize_survey():
         except:
             print("Please enter a valid age!")    
             
-    #Which survey do you want to take?
+    #lets user decide which survey he wants to take
+    #user can type in upper or lower case
     while True:
         inp_survey = input("Which survey do you want to take? (A = Consumption B = Activity Level and Recovery):  ").upper()
         if inp_survey == 'A' or inp_survey == 'B':
@@ -44,7 +45,7 @@ def take_survey(p_survey):
                         v_points += v_chosen_points
                         break;
                     else:
-                        print('Please try again. Enter a number between 0-4')
+                        print("Please try again. Enter a number between 0-4")
                 except:
                     print("You did not enter a number. Please enter 0-4")   
     return v_points
