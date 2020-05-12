@@ -7,7 +7,7 @@ The diagrams shown at the end gives the user a quick insight into the survey and
 
 Roadmap:
  1. __start_app.py:__ general code that imports the functionalities written in other files
- 2. import_modules.py: squarify is being installed automatically (if it does not exist)
+ 2. import_modules.py: squarify is being installed automatically, if it does not yet exist - 
     (squarify is necessary for creating a treemap diagram)
  3. read_data.py: reads the data from external website + internal csv file
  4. survey.py: performs the survey + gives the final score
