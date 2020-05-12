@@ -8,24 +8,24 @@ import survey
 #contains a tuple, consisting of (v_which_canton, v_age, inp_survey)
 global inp_survey
 
-# (0) install potential missing modules
+# (0) Install potential missing modules
 import_modules.auto_install()
 
 
-# (1) Welcome to Sporty-Healthy Checker
+# (1) Welcome to Health Check App
 #   http://asciiflow.com/ has been used to create the ascii-pics
 
 print("")
 print("")
 print("")
-print("         Welcome to the Health Check App")
-print("           Get healthy, STAY HEALTHY")
+print("          Welcome to the Health Check App")
+print("            Get healthy, STAY HEALTHY")
 print("")
-print("                   ,++./,+.")
-print("                  / #      \ ")
-print("                 +          +")
-print("                  \        /")
-print("                   `._,._,'")
+print("                     ,++./,+.")
+print("                    / #      \ ")
+print("                   +          +")
+print("                    \        /")
+print("                     `._,._,'")
 print("")
 print("")
 print("+------------------------------------------------------+")
@@ -44,11 +44,11 @@ input("Let us start the survey. Hit any key. ")
 #   as the choice of survey
 inp_survey = survey.initialize_survey()
 
-# (3) Perform the actual survey. Question by question.
+# (3) Perform the actual survey, question by question
 #   Parameter "inp_survey[2]" stands for the survey which has been chosen
 write_points = survey.take_survey(inp_survey[2])
 
-# (4) Show the grade, healthy or suggestion for medical support.
+# (4) Show the grade, health or suggestion for medical support
 #   In case the health result is poor, doctor suggestions from the appropriate
 #   canton are being shown.
 #   Parameter "inp_survey[0]" stands for the participants' canton
