@@ -7,11 +7,12 @@ import matplotlib.pyplot as plt
 # squarify is necessary for creating a treemap diagram
 import squarify as sq
 
-def write_survey_results(p_canton, p_age, p_survey, p_points):
+def write_survey_results(p_canton, p_age, p_gender, p_survey, p_points):
     #Write results of a taken survey
     df_write = pandas.DataFrame({'\n\nSurvey': [p_survey],
                        'Canton': [p_canton],
                        'Age': [p_age],
+                       'Gender': [p_gender],
                        'Points': [p_points]})
     df_write.to_csv('survey_results.csv', mode='a', header=False,index=False)
     return
@@ -57,44 +58,6 @@ def create_diagrams():
     # View the plot
     plt.show()
 
-# (3) Create a piechart 
-    #grouped by surveys, build the sum
-    results_by_survey = survey_results.groupby("Survey", as_index=False)["Points"].sum()
-    # sum the instances of A (position 0) and B (position 1)
-    A_results = results_by_survey.loc[0,"Points"]
-    B_results = results_by_survey.loc[1,"Points"]
-    #put them into a list called proportions
-    proportions = [A_results, B_results]    
 
-    plt.pie(
-        # using proportions
-        proportions,
-
-        # with the labels being names
-        labels = ['Survey A', 'Survey B'],
-
-        # with no shadows
-        shadow = False,
-
-        # with colors
-        colors = ['blue','red'],
-
-        # with one slide exploded out
-        explode = (0.15 , 0),
-
-        # with the start angle at 90%
-        startangle = 90,
-
-        # with the percent listed as a fraction
-        autopct = '%1.1f%%'
-        )
-
-    # View the plot drop above
-    plt.axis('equal')
-    # Set labels
-    plt.title("Points achieved in both surveys")
-    # View the plot
-    plt.tight_layout()
-    plt.show()
     
     return
