@@ -46,7 +46,7 @@ inp_survey = survey.initialize_survey()
 
 # (3) Perform the actual survey, question by question
 #   Parameter "inp_survey[2]" stands for the survey which has been chosen
-write_points = survey.take_survey(inp_survey[2])
+write_points = survey.take_survey(inp_survey[3])
 
 # (4) Show the grade, health or suggestion for medical support
 #   In case the health result is poor, doctor suggestions from the appropriate
@@ -62,7 +62,7 @@ import results
 #   Parameter "inp_survey[0]" = canton, "inp_survey[1]" = age of 
 #   the participant, "inp_survey[2]" = Survey taken
 #   write_point = amount of points accumulated in this survey
-results.write_survey_results(inp_survey[0],inp_survey[1],inp_survey[2],write_points)
+results.write_survey_results(inp_survey[0],inp_survey[1],inp_survey[2],inp_survey[3],write_points)
 
 # (6) Plot statistical results via diagrams
 results.create_diagrams()
