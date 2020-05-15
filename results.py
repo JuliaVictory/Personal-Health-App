@@ -58,6 +58,44 @@ def create_diagrams():
     # View the plot
     plt.show()
 
+    
+# (3) Create a pie chart to show the gender distribution 
+    # sum the instances of male and female
+    M_results = (survey_results['Gender'] == 'M').sum()
+    F_results = (survey_results['Gender'] == 'F').sum()
+    # put them into a list called proportions
+    proportions = [M_results, F_results]
+    plt.pie(
+        # using proportions
+        proportions,
 
+        # with the labels being officer names
+        labels = ['Male', 'Female'],
+
+        # with no shadows
+        shadow = False,
+
+        # with colors
+        colors = ['blue','red'],
+
+        # with one slide exploded out
+        explode = (0.15 , 0),
+
+        # with the start angle at 90%
+        startangle = 90,
+
+        # with the percent listed as a fraction
+        autopct = '%1.1f%%'
+        )
+
+    # View the plot drop above
+    plt.axis('equal')
+
+    # Set labels
+    plt.title("Gender distribution")
+
+    # View the plot
+    plt.tight_layout()
+    plt.show()
     
     return
