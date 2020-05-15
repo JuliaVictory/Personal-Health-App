@@ -14,7 +14,13 @@ def initialize_survey():
                 print("This does not seem to be a reasonable age")
         except:
             print("Please enter a valid age!")    
-            
+    while True:
+        v_gender = input("Please enter your gender. (M = Male F = Female):  ").upper()
+        if v_gender == 'M' or v_gender == 'F':
+            break;
+        else:
+            print("This gender is not defined. Please enter M or F.")          
+    
     #lets user decide which survey he wants to take
     #user can type in upper or lower case
     while True:
@@ -23,7 +29,7 @@ def initialize_survey():
             break;
         else:
             print("This survey does not exist. Please enter A or B.")
-    return v_which_canton, v_age, inp_survey
+    return v_which_canton, v_age, v_gender, inp_survey
 
 def take_survey(p_survey):
     v_count = 0
@@ -116,3 +122,4 @@ def final_result(p_points,p_canton):
         #oh oh, not good. Therefore show doctors from this canton
         print(read_data.get_doctors(p_canton))
     return
+
