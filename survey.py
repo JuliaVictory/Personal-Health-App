@@ -3,17 +3,22 @@ import csv
 import read_data
 
 def initialize_survey():
+    #initialize variables
     v_age = 0
+    #call another function to print a list of cantons
     v_which_canton = read_data.which_cantons()
+    #break on purpose, stay in the loop until a valid age has been entered
     while True:
         try:
             v_age = input("Please enter your age: ")
+            #people with the age of zero shouldn't participate
             if int(v_age) > 0:
                 break;
             else:
                 print("This does not seem to be a reasonable age")
         except:
-            print("Please enter a valid age!")    
+            print("Please enter a valid age!")  
+    #enter a gender
     while True:
         v_gender = input("Please enter your gender. (M = Male F = Female):  ").upper()
         if v_gender == 'M' or v_gender == 'F':
@@ -43,10 +48,12 @@ def take_survey(p_survey):
         #skip the header row
         next(f)
         for line in csv_reader:
+            #question one should be called "1", instead of 0. python starts counting with 0 normally
             v_count += 1
             while True:
                 try:
                     v_chosen_points = int(input("Question No. " + str(v_count) + ": " + line[0] + " YOU: "))
+                    #we are looking for answers with either 1,2,3,4
                     if int(v_chosen_points) in range(0, 5):
                         v_points += v_chosen_points
                         break;
@@ -62,6 +69,7 @@ def final_result(p_points,p_canton):
     print("Your overall points are: " + str(p_points))
     print("")
     print("")
+    #everything looks fine, healthy
     if p_points>30:
         print("")
         print("           ___________                ")
@@ -76,6 +84,7 @@ def final_result(p_points,p_canton):
         print("")
         print("")
         print("Excellent! Your're well on your way to the next Olympic Games!")
+    #still ok in terms of health
     elif p_points>24:
         print("")
         print("            ____O         __O                    ")
@@ -86,6 +95,7 @@ def final_result(p_points,p_canton):
         print("")
         print("")
         print("You're doing a great job. Keep going and stay healthy!")
+    #you should practise more
     elif p_points>16:
         print("")
         print("+---------------------------------------------------------+")
@@ -100,6 +110,7 @@ def final_result(p_points,p_canton):
         print("You laid the foundations. Now you can really get started!")
         print("")
         print("Keep pushing and further improve your fitness with regular exercises!")
+    #not healthy at all, call a doctor
     else:
         print("")       
         print("       ,'--.             ")

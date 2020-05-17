@@ -8,16 +8,18 @@ import matplotlib.pyplot as plt
 import squarify as sq
 
 def write_survey_results(p_canton, p_age, p_gender, p_survey, p_points):
-    #Write results of a taken survey
+    #Write results of a taken survey (first fill the dataframe with all necessary information)
     df_write = pandas.DataFrame({'\n\nSurvey': [p_survey],
                        'Canton': [p_canton],
                        'Age': [p_age],
                        'Gender': [p_gender],
                        'Points': [p_points]})
+    #append a new line to the already existing file
     df_write.to_csv('survey_results.csv', mode='a', header=False,index=False)
     return
 
 def create_diagrams():
+    #open the survey_results.csv and read it into a dataframe
     survey_results = pandas.read_csv('survey_results.csv')
     
     print("")
@@ -60,7 +62,7 @@ def create_diagrams():
 
     
 # (3) Create a pie chart to show the gender distribution 
-    # sum the instances of male and female
+    # sum up the instances of male and female
     M_results = (survey_results['Gender'] == 'M').sum()
     F_results = (survey_results['Gender'] == 'F').sum()
     # put them into a list called proportions

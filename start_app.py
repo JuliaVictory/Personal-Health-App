@@ -5,7 +5,7 @@ import import_modules
 #   evaluation of results 
 import survey
 
-#contains a tuple, consisting of (v_which_canton, v_age, inp_survey)
+#contains a tuple, consisting of (v_which_canton, v_age, v_gender, inp_survey)
 global inp_survey
 
 # (0) Install potential missing modules
@@ -59,8 +59,11 @@ survey.final_result(write_points,inp_survey[0])
 #   calls to results.py due to: writing the results into a file, 
 #   creating diagrams for the participants
 import results
-#   Parameter "inp_survey[0]" = canton, "inp_survey[1]" = age of 
-#   the participant, "inp_survey[2]" = Survey taken
+#   Parameter 
+#       "inp_survey[0]" = canton,
+#       "inp_survey[1]" = age of the participant, 
+#       "inp_survey[2]" = gender,
+#       "inp_survey[3]" = Survey taken
 #   write_point = amount of points accumulated in this survey
 results.write_survey_results(inp_survey[0],inp_survey[1],inp_survey[2],inp_survey[3],write_points)
 

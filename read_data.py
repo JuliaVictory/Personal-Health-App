@@ -37,9 +37,13 @@ def which_cantons():
 
 def get_doctors(p_canton):
     import pandas as pd
+    #initialize the return variable
     return_value = ''
+    #read the csv file with all doctors and put into the dataframe variable
     survey_results = pd.read_csv('doctors_list.csv')
+    #only doctors from a specific canton are of interest for us
     return_value = survey_results.loc[survey_results['Canton'] == p_canton].to_string(index=False)
+    #just in case there is no doctor in this particular canton, print a text which says so
     if survey_results.loc[survey_results['Canton'] == p_canton].empty == True:
         return_value = 'There does not seem to be any doctor in your canton!'
     return return_value
