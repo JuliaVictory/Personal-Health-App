@@ -1,9 +1,9 @@
 # Personal Health-App
 
-With this program, a user can check her health score in two different surveys. 
+With this program, a user can check his or her health score in two different surveys. 
 Depending on the survey chosen, the inputs are then categorized and the user gets an answer-based result.
-Besides collecting information for further analysis, the personal feedback also creates valuable insight for the user and based on her final score, she will receive a list of doctors in the canton she lives in.   
-The diagrams shown at the end gives the user a quick insight into the survey and provides her with an overview about the most relevant statistics.
+Besides collecting information for further analysis, the personal feedback also creates valuable insight for the user and based on the final score, he or she will receive a list of doctors in the canton the user lives in.   
+The diagrams shown at the end gives the user a quick insight into the survey and provides him or her with an overview about the most relevant statistics.
 
 Roadmap:
  1. __start_app.py:__ general code that imports the functionalities written in other files
