@@ -19,8 +19,9 @@ def initialize_survey():
         except:
             print("Please enter a valid age!")  
     #enter a gender
+    #user can type in upper or lower case
     while True:
-        v_gender = input("Please enter your gender. (M = Male F = Female):  ").upper()
+        v_gender = input("Please enter your gender. \nM = Male | F = Female:  ").upper()
         if v_gender == 'M' or v_gender == 'F':
             break;
         else:
@@ -29,7 +30,7 @@ def initialize_survey():
     #lets user decide which survey he wants to take
     #user can type in upper or lower case
     while True:
-        inp_survey = input("Which survey do you want to take? (A = Consumption B = Activity Level and Recovery):  ").upper()
+        inp_survey = input("Which survey do you want to take? \nA = Consumption | B = Activity Level and Recovery:  ").upper()
         if inp_survey == 'A' or inp_survey == 'B':
             break;
         else:
@@ -39,11 +40,11 @@ def initialize_survey():
 def take_survey(p_survey):
     v_count = 0
     v_points = 0
-    #read the former chosen survey
+    #read the previously chosen survey
     with open('Survey_' + p_survey + '.csv') as f:
         csv_reader = csv.reader(f)
         print("")
-        print("Please enter one of the following: 0 = never, 1 = rarely, 2 = sometimes, 3 = often, 4 = always")
+        print("Please enter one of the following: \n0 = never | 1 = rarely | 2 = sometimes | 3 = often | 4 = always")
         print("")
         #skip the header row
         next(f)
@@ -52,15 +53,15 @@ def take_survey(p_survey):
             v_count += 1
             while True:
                 try:
-                    v_chosen_points = int(input("Question No. " + str(v_count) + ": " + line[0] + " YOU: "))
+                    v_chosen_points = int(input("Question No. " + str(v_count) + ": " + line[0] + " \n -->  "))
                     #we are looking for answers with either 1,2,3,4
                     if int(v_chosen_points) in range(0, 5):
                         v_points += v_chosen_points
                         break;
                     else:
-                        print("Please try again. Enter a number between 0-4")
+                        print("Please try again. Enter a number between 0-4.")
                 except:
-                    print("You did not enter a number. Please enter 0-4")   
+                    print("You did not enter a number. Please enter 0-4.")   
     return v_points
 
 def final_result(p_points,p_canton):
