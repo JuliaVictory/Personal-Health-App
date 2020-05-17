@@ -12,10 +12,10 @@ def initialize_survey():
         try:
             v_age = input("Please enter your age: ")
             #people with the age of zero shouldn't participate
-            if int(v_age) > 0:
+            if int(v_age) > 5:
                 break;
             else:
-                print("This does not seem to be a reasonable age")
+                print("This does not seem to be a reasonable age.")
         except:
             print("Please enter a valid age!")  
     #enter a gender
