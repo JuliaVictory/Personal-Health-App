@@ -47,3 +47,4 @@ def get_doctors(p_canton):
     if survey_results.loc[survey_results['Canton'] == p_canton].empty == True:
         return_value = 'There does not seem to be any doctor in your canton!'
     return return_value
+ 
