@@ -16,3 +16,4 @@ def auto_install():
     except ImportError:
         print("install error")
     return
+ 
