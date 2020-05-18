@@ -1,6 +1,6 @@
 #calling operating system calls
 import os
-#importing modules
+#importing the modules
 import importlib
 
 def auto_install():
