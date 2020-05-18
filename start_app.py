@@ -45,7 +45,7 @@ input("Let us start the survey. Hit any key. ")
 inp_survey = survey.initialize_survey()
 
 # (3) Perform the actual survey, question by question
-#   Parameter "inp_survey[2]" stands for the survey which has been chosen
+#   Parameter "inp_survey[3]" stands for the survey which has been chosen
 write_points = survey.take_survey(inp_survey[3])
 
 # (4) Show the grade, health or suggestion for medical support
