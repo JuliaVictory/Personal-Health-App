@@ -24,3 +24,4 @@ Technical functionality:
  - Exception handling
  - Use ascii visualization
  - Separated code into more files for independent working and developing of features (functionality based)
+ 
