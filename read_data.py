@@ -8,7 +8,7 @@ def which_cantons():
     #read_html > reads html tables and puts it in a variable
     tables = pd.read_html("http://kantone-staedte.infos-schweiz.ch/")
 
-    #for formatting purposes we convert the canton-list into a panda dataframe
+    #for formatting purposes we convert the canton list into a panda dataframe
     df = tables[2]
     #only canton short sign and the canton name are being needed
     df = df.drop(df.columns[[0,3,4,5,6,7,8]], axis=1)
