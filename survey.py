@@ -49,7 +49,7 @@ def take_survey(p_survey):
         #skip the header row
         next(f)
         for line in csv_reader:
-            #question one should be called "1", instead of 0. python starts counting with 0 normally
+            #question one should be called 1, instead of 0. python starts counting with 0 normally
             v_count += 1
             while True:
                 try:
