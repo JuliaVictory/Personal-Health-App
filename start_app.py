@@ -1,7 +1,7 @@
 #for installing missing modules
 import import_modules
 
-#calls to survey.py due to: initialization, survey taking, 
+#calls to survey.py due to: initialization, survey taking and, 
 #   evaluation of results 
 import survey
 
